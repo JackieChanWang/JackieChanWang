@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <img src="img.png" alt="">
+    <script>
+        if (/MicroMessenger/.test(window.navigator.userAgent)) {
+            alert('微信客户端');
+        } else if (/AlipayClient/.test(window.navigator.userAgent)) {
+            alert('支付宝客户端');
+        } else {
+            alert('其他浏览器');
+        }
+    </script>
+</body>
+</html>
