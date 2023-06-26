@@ -26,12 +26,13 @@
 
 
 
+
     <script>
         if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
             document.write('<link rel="stylesheet" type="text/css" href="./style-320.css" media="screen and (max-width:767px)"/>');
             document.write('<script type="text/javascript" src="./reactive.js"><\/script>');
             $(document).ready(function () {
-                $("#logo").html('<img src="" width="300" usemap="#plantmap" /><map name="plantmap"><area shape="rect" coords="0,0,120,200" alt="XXXXXXXXX" href="" /><area shape="rect" coords="350,0,440,200" alt="中国专利公布公告" href="/Index" /></map>');
+                $("#logo").html('<img src="./logo.png" width="300" usemap="#plantmap" /><map name="plantmap"><area shape="rect" coords="0,0,120,200" alt="国家知识产权局" href="https://www.cnipa.gov.cn" /><area shape="rect" coords="350,0,440,200" alt="中国专利公布公告" href="/Index" /></map>');
               });
         }else {
             $(document).ready(function () {
@@ -39,12 +40,6 @@
             });
         }
     </script>
-    
-
-
-
-
-    
     
 
 
@@ -58,26 +53,24 @@
     <div class="wrap index-wrap">
         <div class="header">
             <div class="sitebar">
-                  <div class="w" id="logo">
+                <div class="w" id="logo">
                     <img src="./logo.png" usemap="#plantmap">
                     <map name="plantmap">
                         <area shape="rect" coords="0,0,190,200" alt="国家知识产权局" href="https://www.cnipa.gov.cn/">
                         <area shape="rect" coords="210,0,440,200" alt="中国专利公布公告" href="http://epub.cnipa.gov.cn/Index">
                     </map>
-                  </div>
-             </div>
+                </div>
             </div>
-         </div>
             <div class="navbar">
                 <div class="w">
                     <ul class="nli">
-                        <li><a href="http://" class="hover">首页</a></li>
-                        <li><a href="http://">事务查询</a></li>
-                        <li><a href="http://">专利公报查询</a></li>
-                        <li><a href="http://">高级查询</a></li>
-                        <li><a href="http://s">IPC分类查询</a></li>
-                        <li><a href="http://">LOC分类查询</a></li>
-                        <li><a href="http://">数据说明</a></li>
+                        <li><a href="http://epub.cnipa.gov.cn/Index" class="hover">首页</a></li>
+                        <li><a href="http://epub.cnipa.gov.cn/SW">事务查询</a></li>
+                        <li><a href="http://epub.cnipa.gov.cn/Gb">专利公报查询</a></li>
+                        <li><a href="http://epub.cnipa.gov.cn/Advanced">高级查询</a></li>
+                        <li><a href="http://epub.cnipa.gov.cn/Ipc">IPC分类查询</a></li>
+                        <li><a href="http://epub.cnipa.gov.cn/Loc">LOC分类查询</a></li>
+                        <li><a href="http://epub.cnipa.gov.cn/DataExplain">数据说明</a></li>
 
                     </ul>
                     <a class="desc" href="http://epub.cnipa.gov.cn/Article"><i class="icon-desc"></i>使用说明</a>
@@ -189,11 +182,11 @@ US 2019325233 A1,2019.10.24; WO 2016185637 A1,2016.11.24; CN 114493967 A,2022.05
         <div class="footer">
             <div class="w">
                 <p class="links">
-                    <a href="http://=4">版权声明</a><i class="line"></i>
-                    <a href="http://">联系我们</a>
+                    <a href="http://epub.cnipa.gov.cn/Article?index=4">版权声明</a><i class="line"></i>
+                    <a href="http://epub.cnipa.gov.cn/Article?index=5">联系我们</a>
                 </p>
                 <p class="copyright">
-                   
+                    
                 </p>
                <!--<a class="other" href="http://bszs.conac.cn/sitename?method=show&amp;id=275F111369894D2CE053022819AC84F9" target="_blank"><img src="./2004271032321929259.png" style="width: 55px;height:55px"></a>
                 <a class="other"><script id="_jiucuo_" sitecode="bm38000007" src="./jiucuo.js.下载"> </script><span id="_span_jiucuo"><img onclick="Link(&#39;bm38000007&#39;)" style="margin:0;border:0;cursor: pointer;" src="./jiucuo.png"></span></a><a>
@@ -271,3 +264,4 @@ US 2019325233 A1,2019.10.24; WO 2016185637 A1,2016.11.24; CN 114493967 A,2022.05
       background-color: #878987;
     }
   </style></template></div></html>
+
